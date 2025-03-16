@@ -1,23 +1,14 @@
 "use client";
 
-import * as React from "react";
 import {
-  AudioWaveform,
-  BookOpen,
-  Bot,
   Clock,
-  Command,
   CreditCard,
-  Frame,
-  GalleryVerticalEnd,
-  Home,
   LayoutDashboardIcon,
-  Map,
-  PieChart,
   Settings2,
   SquareTerminal,
   Users,
 } from "lucide-react";
+import * as React from "react";
 
 import { NavMain } from "@/components/nav-main";
 import { NavUser } from "@/components/nav-user";

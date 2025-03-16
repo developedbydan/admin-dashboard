@@ -1,3 +1,6 @@
+import Card from "@/components/card";
+import ChartWrapper from "@/components/chart-wrapper";
+import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -15,10 +18,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-import { Avatar, AvatarImage } from "@/components/ui/avatar";
-import Card from "@/components/card";
 import { dashboardCards, salesReps } from "@/config/dashboard-data";
-import ChartWrapper from "@/components/chart-wrapper";
 
 export default function Home() {
   return (

@@ -9,6 +9,7 @@ import {
   ChartTooltipContent,
 } from "@/components/ui/chart";
 
+import { Area } from "recharts";
 import {
   Card,
   CardContent,
@@ -17,10 +18,9 @@ import {
   CardHeader,
   CardTitle,
 } from "./ui/card";
-import { Area } from "recharts";
 
 import { TrendingUp } from "lucide-react";
-import { AreaChart, CartesianGrid, XAxis, YAxis, Tooltip } from "recharts";
+import { AreaChart, CartesianGrid, XAxis, YAxis } from "recharts";
 
 const chartData = [
   { month: "January", revenue: 30473, orders: 20000 },

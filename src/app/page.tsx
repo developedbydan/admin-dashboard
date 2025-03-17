@@ -19,6 +19,7 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import { dashboardCards, salesReps } from "@/config/dashboard-data";
+import { SalesChart } from "@/components/sales-chart";
 
 export default function Home() {
   return (
@@ -79,7 +80,8 @@ export default function Home() {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-10">
         <ChartWrapper />
-        <div className="bg-black rounded-lg h-full w-full"></div>
+
+        <SalesChart />
       </div>
     </div>
   );

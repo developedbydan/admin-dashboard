@@ -11,6 +11,7 @@ Sales Admin Dashboard is a showcase project built to demonstrate UI and dashboar
 ## Features
 
 - **Modern UI:** Clean and intuitive interface for data presentation.
+- **Responsive Design:** Fully optimized for desktop and mobile devices.
 - **Sales Analytics:** Example charts and tables for tracking sales performance.
 
 ## Tech Stack
